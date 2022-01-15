@@ -14,7 +14,7 @@ service RocketService {
     rpc DeleteRocket (DeleteRocketRequest) returns (DeleteRocketResponse);
 }
 
-// -- Get Rocket Message types --
+// -- Get Rocket Message Types --
 message GetRocketRequest {
     string id = 1;
 }
@@ -23,7 +23,7 @@ message GetRocketResponse {
     Rocket rocket = 1;
 }
 
-// -- Add Rocket Message types --
+// -- Add Rocket Message Types --
 message AddRocketRequest {
     Rocket rocket = 1;
 }
@@ -32,7 +32,7 @@ message AddRocketResponse {
     Rocket rocket = 1;
 }
 
-// -- Delete Rocket Mesesage types --
+// -- Delete Rocket Message Types --
 message DeleteRocketRequest {
     Rocket rocket = 1;
 }
